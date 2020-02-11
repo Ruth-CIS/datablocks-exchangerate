@@ -8,6 +8,10 @@ datagroup: default {
 
 explore: forex {
   from: bq_forex_historical_real {}
-  persist_with: default
+#  persist_with: default
+
+}
+
+explore: bq_forex_real {
   label: "Exchange Rates"
 }
