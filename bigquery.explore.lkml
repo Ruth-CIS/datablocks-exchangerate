@@ -7,11 +7,13 @@ datagroup: default {
 }
 
 explore: forex {
+  hidden: yes
   from: bq_forex_historical_real {}
 #  persist_with: default
 
 }
 
 explore: bq_forex_real {
+  hidden: yes
   label: "Exchange Rates"
 }
